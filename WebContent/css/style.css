@@ -55,12 +55,12 @@ table {
 }
 
 th {
-    width: 26%;
+    width: 150px;
     padding: 10px 2%;
 }
 
 td {
-    width: 66%;
+    width: auto;
     padding: 10px 2%;
 }
 
@@ -72,6 +72,7 @@ button {
 #footer {
     text-align: center;
 }
+
 #flush_success {
     width: 100%;
     padding-top: 28px;
@@ -81,6 +82,7 @@ button {
     color: #155724;
     background-color: #d4edda;
 }
+
 #flush_error {
     width: 100%;
     padding-top: 28px;
@@ -89,4 +91,30 @@ button {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
+}
+
+.task_table table, tr, th, td {
+    border: 1px solid #cccccc;
+}
+
+.task_table table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.task_table .id {
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.task_table .detail {
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+.task_table .content {
+    width: auto;
+    padding: 10px;
 }
